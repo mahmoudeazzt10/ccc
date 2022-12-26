@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 90%;
+    margin:auto ;
+    display:  flex;
+    justify-content: space-between;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    border-bottom: 1px rgb(255, 255, 255) solid;
+    box-shadow: 0px 0.5px 0.1px;
+}
+/* start search */
+.container .search{
+    position: relative;
+}
+.search input{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin: 40px;
+    padding: 10px 0 0 px;
+     
+    
+    
+    
+    
+}
+.container .search .fa-magnifying-glass{
+    font-size: 11px;
+    position: absolute;
+    right: 245px;
+    top: 50px;
+    
+
+}
+.search input:focus{
+    background-color: rgb(255, 255, 255);
+} 
+/* end search  */
+/* start name */
+.container .name{
+    border: 2px black solid;
+    padding: 5px;
+    margin: 35px;
+    position: relative;
+    right: 40px;
+}
+.container .name .h{
+    color: black;
+    font-size: 30px;
+     
+}
+.container .name a{
+    text-decoration:  none;
+}
+/* end name */
+/* start icon */
+.container .icon{
+    margin: 30px;
+     
+} 
+.container .icon i{
+    padding:10px;
+    color: rgb(141, 141, 141);
+}
+.container .icon i:hover{
+    color: black;
+
+}
+/* end icon */
+
+.container1{
+    width: 87%;
+    margin:auto ;
+    display: flex;
+}
+.container1 .ul1 {
+    display: flex;
+    list-style-type: none;
+    margin:auto;
+     
+}
+
+.container1 ul li{
+    padding: 15px;
+}
+.container1 .ul1 li a:hover{
+    color: blueviolet;
+}
+.container1 ul a{
+    text-decoration: none;
+    color: black;
+}
+.container1  .home a{
+    color: blue;
+}
+.container1 .ul1 .home .ul2 .li2{
+    position: absolute;
+}
+.background{
+    background:rgb(1, 255, 221);
+    display: flex;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 60px;
+}
+.container2{
+    width: 88%;
+    margin:auto ;
+    display: flex;
+    justify-content: space-between; 
+    position: relative;
+}
+.container2 .part-righ{
+    display: flex;
+}
+.container2 .part-left{
+    font-size: 20px;
+    position:absolute;
+    top: 150px;
+    left:1010px;
+}
+.container2 .part-left h2{
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.container2 .part-left p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container2 .part-left button {
+    border: 1px  blueviolet solid ;
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+}
+.container2 .part-left button:hover{
+    transform:scale(1.1) ;
+    /* border-bottom: 2px black solid; */
+    box-shadow: 1px 1px 4px;
+
+}
+/* {
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    border-bottom: 1px rgb(255, 255, 255) solid;
+    box-shadow: 0px 0.5px 0.1px;
+} */
+.container3{
+    width: 90%;
+    margin:auto ;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 1px rgb(20, 20, 20) solid;
+}
+
+.container3 .left { 
+    margin: 40px;
+} 
+.container3 .left h3{
+    margin: 0px 0 10px 10 ;
+}
+.container3 .left p{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 0 0 10;
+
+}
+.container3 .left .fa-car-side{
+    position: relative;
+    right: 35px;
+    top: 20px;
+    font-size: 30px;
+    color: blueviolet ;
+}
+.container3 .center{
+    margin:  40px;
+}
+.container3 .center h3{
+    margin: 0px 0 10px 0 ;
+}
+.container3 .center p{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container3 .center .fa-retweet{
+    position: relative;
+    right: 40px;
+    top: 20px;
+    font-size: 30px;
+    color: blueviolet ;
+}
+.container3 .right{
+    margin: 40px;
+}
+.container3 .right h3{
+    margin: 0px 0 10px 0 ;
+}
+.container3 .right p{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container3 .right .fa-question{
+    position: relative;
+    right:20px;
+    top: 20px;
+    font-size: 30px;
+    color: blueviolet ;
+}
+.container4{
+    width: 90%;
+    margin:auto ;
+    display: flex;
+    justify-content: space-between; 
+    position: relative;
+     
+}
+.container4 div {
+    margin:90 0 90 0;
+    position: relative;
+     
+     
+}
+.container4 div img {
+     
+    border: 1px white solid;
+}
+
+.container4 div h2 {
+    position: absolute;
+    bottom: 10px;
+    left:15px ;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+   
+    
+}
+.container4 div p {
+    position: absolute;
+    bottom: 50px;
+    left:15px ;
+    color: rgb(255, 255, 255);
+}
+.sec3{
+    background-color:black;
+}
+.container5{
+    /* width: 90%;
+    margin:auto ;
+    
+    */
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    /* justify-content:space-between;  */
+    position: relative;
+      
+}
+.container5 .start{
+    position: absolute;
+    left: 600px;
+    top: 100px; 
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container5 .img1 .m{
+    border: 1px rgb(255, 255, 255) solid;
+    padding: 50px;
+}
+.container5 .img1{
+     margin:250px 40px;
+      position: relative;
+     left: 150px; 
+     background-color: rgb(255, 255, 255);
+     height: 600px;  
+}
+.container5 .img1 h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.container5 .img1 p{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.container5 .img1 .el{
+     
+    padding:6px ; 
+}
+.container5 .img1 a{
+    text-decoration: none;
+}
+.container6{
+    width: 100%;
+    height: 700px;
+    margin:auto ;
+    display:  flex;
+    justify-content:space-between ;
+    position: relative;
+}
+.container6 .Big{
+    position: absolute;
+    right: 700px;
+    top: 70px;
+    font-size: 35px;
+    border-top: 2px rgb(88, 88, 88) solid;
+     
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container6 img{
+    position: absolute;
+    top:160px;
+    left:110px;
+}
+.container6 div {
+    /* margin:300px 0 0 0px;  */
+     justify-content: space-between; 
+    
+     
+
+
+    
+}
+
+.container6 div .less{
+    text-align: center;
+    color:blueviolet ;
+    font-size: 30px;
+    position: absolute;
+    top: 250px;
+    left: 1040px;
+}
+.container6 div .Lorem{
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* margin-top: 340px; */
+    /* border: 1px rgb(255, 255, 255) solid;   */
+    /* padding: 0px 0px;
+    margin: 340 570px 0 ; */
+     position: absolute;
+    right: 0;
+    left: 800;
+    top: 300; 
+    /* margin:0 150px;  */
+    text-indent: 25px;
+    white-space: pre-wrap ;
+    line-height:30px;
+    color: rgba(0, 0, 0, 0.404);
+
+
+    
+    
+}   
+.container6 div .NEW{
+   
+    border: 1px  blueviolet solid ;
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    position: absolute;
+    top: 450px;
+    right: 350;
+    color: white;
+    
+}
+.container6 div .NEW:hover{
+    transform:scale(1.1) ;
+    
+    box-shadow: 2px 2px 3px rgb(8, 8, 8);
+
+}
+.container7{
+    width: 88%;
+    height: 700px;
+    margin:auto ;
+    display:  flex;
+    justify-content:space-between ;
+    position: relative;
+}
+.container7 .end ul{
+    list-style-type:none;
+    color: rgba(0, 0, 0, 0.452);
+}
+.container7 .end .first{
+    color: rgba(137, 43, 226, 0.678);
+
+}
+.container7 .end .second{
+    color: rgba(0, 0, 0, 0.658);
+}
+.container7 .end div{
+    margin-top: 20;
+}
+ 
+.container7 .end div .fa-location-dot{
+    color:blueviolet ;
+    position: absolute;
+    left:1080px ;
+}
+.container7 .end div .fa-phone{
+    color: blueviolet;
+    position: absolute;
+    left:1080px ;
+}
+.container7 .end div .fa-envelope{
+    color: blueviolet;
+    position: absolute;
+    left:1080px ;
+}
+.container7 .end div input{
+    height: 41px;
+    width: 240px;
+    padding: 10px;
+
+}
+.container7 .end div button{
+    height: 35;
+    width: 80;
+    background-color: blueviolet;
+    border: 1px blueviolet solid ;
+    border-radius: 5px;
+    color: aliceblue;
+    position: absolute;
+    right: 18px;
+    top: 305px;
+
+}
+footer div {
+    text-align: center;
+    height:60px;
+    position: absolute;
+    left: 550px;
+     
+}
+footer div p{
+    color:rgba(0, 0, 0, 0.637);
+}
+footer div h5{
+    position: relative;
+    bottom: 15;
+    left: 260;
+    color: blueviolet;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 

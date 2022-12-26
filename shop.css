@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    
+}
+.container{
+    width: 90%;
+    margin:auto ;
+    display:  flex;
+    justify-content: space-between;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    border-bottom: 1px rgb(255, 255, 255) solid;
+    box-shadow: 0px 0.5px 0.1px;
+}
+/* start search */
+.container .search{
+    position: relative;
+}
+.search input{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin: 40px;
+    padding: 10px 0 0 px;
+     
+    
+    
+    
+    
+}
+.container .search .fa-magnifying-glass{
+    font-size: 11px;
+    position: absolute;
+    right: 245px;
+    top: 50px;
+    
+
+}
+.search input:focus{
+    background-color: rgb(255, 255, 255);
+} 
+/* end search  */
+/* start name */
+.container .name{
+    border: 2px black solid;
+    padding: 5px;
+    margin: 35px;
+    position: relative;
+    right: 40px;
+}
+.container .name .h{
+    color: black;
+    font-size: 30px;
+     
+}
+.container .name a{
+    text-decoration:  none;
+}
+/* end name */
+/* start icon */
+.container .icon{
+    margin: 30px;
+     
+} 
+.container .icon i{
+    padding:10px;
+    color: rgb(141, 141, 141);
+}
+.container .icon i:hover{
+    color: black;
+
+}
+/* end icon */
+
+.container1{
+    width: 87%;
+    margin:auto ;
+    display: flex;
+}
+.container1 .ul1 {
+    display: flex;
+    list-style-type: none;
+    margin:auto;
+     
+}
+
+.container1 ul li{
+    padding: 15px;
+}
+.container1 .ul1 li a:hover{
+    color: blueviolet;
+}
+.container1 ul a{
+    text-decoration: none;
+    color: black;
+}
+.container1  .home a{
+    color: blue;
+}
+.container1 .ul1 .home .ul2 .li2{
+    position: absolute;
+}
+nav{
+    background-color: rgb(241, 241, 241);
+    height: 50px;
+    margin-top: 50px;
+    
+}
+.container11 {
+    width: 87%;
+    margin:auto ;
+    display: flex;
+    position: relative;
+}
+.container11 h3{
+    position: absolute;
+    top:10px;
+    color: blueviolet;
+    
+
+}
+.container11 .q{
+    position: absolute;
+    top:10px;
+    left: 65px;
+    color: black;
+    
+
+}
+.container12{
+    width: 87%;
+    height: 2000px;
+    margin:auto ;
+    position: relative;
+    border-bottom: 1px rgb(0, 0, 0) solid;
+    margin-bottom: 150px;
+    
+    
+}
+.container12 .orginal{
+    justify-content:space-around;
+    display: flex;
+   
+    
+}
+.container12 .orginal .bottom{
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    top: -41px;
+    
+}
+.container12 .orginal .bottom .shop h2{
+    margin: -23px 0px 0 -53px;
+}
+.container12 .orginal .bottom button{
+    position: absolute;
+    left: 880px;
+    top: -30px;
+    border: none;
+    border-radius: 0px;
+    border: 1px rgb(233, 233, 233)(204, 204, 204) solid;
+    width: 120px;
+    height: 40px;
+    
+
+}
+.container12 .orginal .bottom .one{
+    position: absolute;
+    left: 780px;
+    width: 90px;
+
+}
+.container12 .orginal .Right {
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    width: 1000px;
+    position: absolute;
+    top: 140px;
+    right: 47px;
+     
+}
+.container12 .orginal a img{
+    width: 330px;
+    height:250px ;
+    
+}
+ .container12 .orginal .img{
+    margin-top: 150px;
+    margin: 9px 0 0 -54px;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+   
+    
+ }  
+ .container12 .orginal .img h3{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+ }
+ .container12 .orginal .img p{
+    text-align: center;
+    margin-bottom: 15px;
+
+ }
+ .container12 .orginal .lift .top{
+    border: 1px rgba(2, 2, 2, 0.281) solid;
+    position: absolute;
+    left:0px;
+    top: 80px;
+    padding: 0px 71px 175px 176px;
+ }
+ .container12 .orginal .lift .top ul{
+    list-style-type: none;
+ }
+ .container12 .orginal .lift .top .three3{
+    position: absolute;
+    right: 30px;
+    bottom: 38px;
+ }
+ .container12 .orginal .lift .top .three3 li{
+    padding-top: 6px;
+ }
+ .container12 .orginal .lift .top .two2 li{
+    padding-top: 6px;
+    color: rgba(137, 43, 226, 0.644);
+ }
+ .container12 .orginal .lift .top .two2{
+    position: absolute;
+    bottom: 40px;
+    left: 25px;
+ }
+ .container12 .orginal .lift .top .one1{
+    padding: 0 0 0 0;
+    position: absolute;
+    top: 18px;
+     left: 25px;
+ }
+ .container12 .orginal .lift .botton{
+    border: 1px rgba(2, 2, 2, 0.281) solid;
+    position: absolute;
+    left: 0px;
+    top: 285px;
+    padding: 90px 114px 302px 133px;
+ }
+
+ .container12 .orginal .lift .botton  .four {
+     
+    list-style: none;
+     position: absolute;
+     top: 220px;
+     right: 143px;
+
+    
+ }
+.container12 .orginal .lift .botton .first{
+     
+    margin-top: -69px;
+    margin-left: -99px;
+
+}
+ .container12 .orginal .lift .botton  .four  li{
+margin-bottom: 3px;
+ }
+ .container12 .orginal .lift .botton  .four .l1:before{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: brown;
+    margin-left: -10px;
+    margin-top: 7px;
+    border-radius: 50%;
+    padding :0  0 0px ;
+
+ }
+ .container12 .orginal .lift .botton  .four .l2:before{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(28, 243, 0);
+    margin-left: -10px;
+    margin-top: 7px;
+    border-radius: 50%;
+    padding :0  0 0px ;
+
+ }
+ .container12 .orginal .lift .botton  .four .l3:before{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(35, 0, 231);
+    margin-left: -10px;
+    margin-top: 7px;
+    border-radius: 50%;
+    padding :0  0 0px ;
+
+ }
+ .container12 .orginal .lift .botton  .four .l4:before{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(204, 0, 143);
+    margin-left: -10px;
+    margin-top: 7px;
+    border-radius: 50%;
+    padding :0  0 0px ;
+
+ }
+.container12 .orginal .lift .botton  .four  h3{
+   
+    margin-bottom: 10px;
+}
+.container12 .orginal .lift .botton  .second  li{
+        margin-bottom: 10px;
+}
+.container12 .orginal .lift .botton  .second  h3{
+    margin-left: 14px;
+    margin-bottom: 14px;
+   
+}
+
+ .container12 .orginal .lift .botton  .second {
+    list-style-type: none;
+     position: absolute;
+     top: 92px;
+     right: 104px;
+ }
+ .container4{
+    width: 90%;
+    margin:auto ;
+    display: flex;
+    justify-content: space-between; 
+    position: relative;
+    border-bottom: 1px rgb(0, 0, 0) solid;
+     padding-bottom: 150px;
+}
+.container4 div {
+    margin:90 0 90 0;
+    position: relative;
+     
+     
+}
+.container4 div img {
+     
+    border: 1px white solid;
+}
+
+.container4 div h2 {
+    position: absolute;
+    bottom: 10px;
+    left:15px ;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+   
+    
+}
+.container4 div p {
+    position: absolute;
+    bottom: 50px;
+    left:15px ;
+    color: rgb(255, 255, 255);
+}
+.container7{
+    width: 88%;
+    height: 600px;
+    margin:auto ;
+    display:  flex;
+    margin-top: 200px;
+    justify-content:space-between ;
+    position: relative;
+
+    
+}
+.container7 .end ul{
+    list-style-type:none;
+    color: rgba(0, 0, 0, 0.452);
+}
+.container7 .end .first{
+    color: rgba(137, 43, 226, 0.678);
+
+}
+.container7 .end .second{
+    color: rgba(0, 0, 0, 0.658);
+}
+.container7 .end div{
+    margin-top: 20px;
+}
+ 
+.container7 .end div .fa-location-dot{
+    color:blueviolet ;
+    position: absolute;
+    left:1080px ;
+}
+.container7 .end div .fa-phone{
+    color: blueviolet;
+    position: absolute;
+    left:1080px ;
+}
+.container7 .end div .fa-envelope{
+    color: blueviolet;
+    position: absolute;
+    left:1080px ;
+}
+.container7 .end div input{
+    height: 41px;
+    width: 240px;
+    padding: 10px;
+
+}
+.container7 .end div button{
+    height: 35px;
+    width: 80px;
+    background-color: blueviolet;
+    border: 1px blueviolet solid ;
+    border-radius: 5px;
+    color: aliceblue;
+    position: absolute;
+    right: 18px;
+    top: 305px;
+
+}
+footer div {
+    text-align: center;
+    height:60px;
+    position: absolute;
+    left: 550px;
+     
+}
+footer div p{
+    color:rgba(0, 0, 0, 0.637);
+}
+footer div h5{
+    position: relative;
+    bottom: 15px;
+    left: 260px;
+    color: blueviolet;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+  
